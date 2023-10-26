@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/pgina-responsiva-com-formulrio-de-inscrio-utilizando-flexbox-bb7fe17seF))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://hugobachini.github.io/Frontend-Mentor-Componente-de-introducao-com-solucao-de-formulario-de-inscricao/))
+- Solution URL: [https://www.frontendmentor.io/solutions/pgina-responsiva-com-formulrio-de-inscrio-utilizando-flexbox-bb7fe17seF]
+- Live Site URL: [https://hugobachini.github.io/Frontend-Mentor-Componente-de-introducao-com-solucao-de-formulario-de-inscricao/]
 
 ## My process
 
