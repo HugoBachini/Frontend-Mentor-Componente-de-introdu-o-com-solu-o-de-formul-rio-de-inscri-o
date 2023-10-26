@@ -1,0 +1,163 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 25px;
+
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteudo{
+    max-width: 550px;
+    color: white;
+}
+
+.conteudo h1{
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.oferta{
+    max-width: 550px;
+}
+
+.oferta .informacao p{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+
+    text-align: center;
+    font-weight: 600;
+
+    padding: 15px 50px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.100);
+}
+
+.oferta .informacao p span{
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+
+.oferta .formulario{
+    background-color: white;
+    padding: 40px;
+
+    border-radius: 10px;
+    box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.100);
+}
+
+.oferta .formulario .input-container{
+    position: relative;
+}
+
+.oferta .formulario .input{
+    width: 100%;
+    padding: 15px 30px;  
+    margin-bottom: 20px;
+  
+    border: solid 1px hsl(246, 25%, 77%);
+    border-radius: 5px;
+  
+    font-weight: 600;
+}
+
+.oferta .formulario .input:focus{
+    outline: solid 1px hsl(248, 32%, 49%);
+}
+
+.oferta .formulario #botao{
+    width: 100%;
+    height: 45px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+  
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+  
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 0 hsl(154, 39%, 51%);
+  
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.oferta .formulario #botao:hover{
+    background-color: hsla(154, 59%, 51%, 0.666);
+    cursor: pointer;
+}
+
+.oferta .formulario #aviso{
+    color: hsl(246, 25%, 77%);
+  
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.formulario #aviso a{
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+  
+.oferta .formulario .input-container .icone{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  
+    display: none;
+}
+
+.oferta .formulario .input-container .mensagem{
+    color: hsl(0, 100%, 74%);
+  
+    text-align: right;
+    font-size: 11px;
+    font-weight: 500;
+  
+    margin-bottom: 20px;
+  
+    display: none;
+}
+
+.oferta .formulario .input.erro{
+    margin-bottom: 5px;
+    border: solid 3px hsl(0, 100%, 74%);
+}
+
+.oferta .formulario .input.erro:focus{
+    outline: none;
+}
+
+.oferta .formulario .input-container .icone.erro{
+    display: block;
+}
+
+.oferta .formulario .input-container .mensagem.erro{
+    display: block;
+}
+
+.oferta .formulario .input-container .input.email-erro{
+    color: hsl(0, 100%, 74%);
+}
+
+.oferta .formulario .input-container .input.email-erro::placeholder{
+    color: hsl(0, 100%, 74%);
+}
